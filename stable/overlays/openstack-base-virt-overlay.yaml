@@ -3,106 +3,106 @@ applications:
   ceph-osd:
     to: []
     bindings:
-      "": ""
+      "": "alpha"
     storage:
       osd-devices: 20GB
   ceph-mon:
     to: []
     bindings:
-      "": ""
+      "": "alpha"
   ceph-radosgw:
     to: []
     bindings:
-      "": ""
+      "": "alpha"
   cinder:
     expose: True
     to: []
     bindings:
-      "": ""
+      "": "alpha"
   cinder-ceph:
     bindings:
-      "": ""
+      "": "alpha"
   cinder-mysql-router:
     bindings:
-      "": ""
+      "": "alpha"
   glance:
     expose: True
     to: []
     bindings:
-      "": ""
+      "": "alpha"
   glance-mysql-router:
     bindings:
-      "": ""
+      "": "alpha"
   keystone:
     expose: True
     to: []
     bindings:
-      "": ""
+      "": "alpha"
   keystone-mysql-router:
     bindings:
-      "": ""
+      "": "alpha"
   mysql-innodb-cluster:
     to: []
     bindings:
-      "": ""
+      "": "alpha"
   neutron-api:
     expose: True
     to: []
     bindings:
-      "": ""
+      "": "alpha"
   neutron-api-plugin-ovn:
     bindings:
-      "": ""
+      "": "alpha"
   neutron-mysql-router:
     bindings:
-      "": ""
+      "": "alpha"
   nova-cloud-controller:
     expose: True
     to: []
     bindings:
-      "": ""
+      "": "alpha"
   nova-compute:
     annotations:
     to: []
     constraints: mem=4G
     bindings:
-      "": ""
+      "": "alpha"
   nova-mysql-router:
     bindings:
-      "": ""
+      "": "alpha"
   openstack-dashboard:
     expose: True
     to: []
     bindings:
-      "": ""
+      "": "alpha"
   dashboard-mysql-router:
     bindings:
-      "": ""
+      "": "alpha"
   ovn-central:
     to: []
     bindings:
-      "": ""
+      "": "alpha"
   ovn-chassis:
     bindings:
-      "": ""
+      "": "alpha"
   placement:
     to: []
     bindings:
-      "": ""
+      "": "alpha"
   placement-mysql-router:
     bindings:
-      "": ""
+      "": "alpha"
   rabbitmq-server:
     to: []
     bindings:
-      "": ""
+      "": "alpha"
   ntp:
     bindings:
-      "": ""
+      "": "alpha"
   vault:
     to: []
     bindings:
-      "": ""
+      "": "alpha"
   vault-mysql-router:
     bindings:
-      "": ""
+      "": "alpha"
